@@ -786,7 +786,6 @@ GameObject:
   - component: {fileID: 2575477561970802172}
   - component: {fileID: 1802722909844078544}
   - component: {fileID: 2395432502064463149}
-  - component: {fileID: 8481598799425734706}
   m_Layer: 5
   m_Name: Container
   m_TagString: Untagged
@@ -854,21 +853,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8481598799425734706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4466334431332002987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c36442d36d94ad6438593c74773655cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  inputField: {fileID: 8349091879088165383}
-  colorShowcaseImage: {fileID: 8881022534940571884}
-  text: {fileID: 3007576728627424557}
 --- !u!1 &5325651034816108330
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +866,7 @@ GameObject:
   - component: {fileID: 4300654821384096248}
   - component: {fileID: 4920789567304922927}
   - component: {fileID: 3196867086813413058}
+  - component: {fileID: 5446000769742181013}
   m_Layer: 5
   m_Name: CameraViewerManagerPrefab
   m_TagString: Untagged
@@ -989,6 +974,25 @@ MonoBehaviour:
   m_cameraAccess: {fileID: 0}
   m_debugText: {fileID: 7564955763330587025}
   m_image: {fileID: 875260709271607064}
+--- !u!114 &5446000769742181013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5325651034816108330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe3cda3e244f60419474164d6ba3b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.TrackedDeviceRaycaster
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_MaxDistance: 1000
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &6852599411476956041
 GameObject:
   m_ObjectHideFlags: 0

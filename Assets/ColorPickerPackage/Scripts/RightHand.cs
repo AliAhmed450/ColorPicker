@@ -28,7 +28,7 @@ public class RightHand : MonoBehaviour
         if (m_image != null)
             m_image.color = color;
 
-        Container.gameObject.SetActive(true);
+        Container.activateObjects();
         Container.Initialize(color);
     }
     public Texture2D GetTexture()
